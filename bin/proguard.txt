@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.anbu.cardionfc.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class io.card.payment.CardIOActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class io.card.payment.DataEntryActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:8
+-keepclassmembers class * { *** onScanPress(...); }
+
